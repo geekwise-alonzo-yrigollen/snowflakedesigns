@@ -12,7 +12,7 @@ body{
     font-variant: normal;
     font-weight: normal;
     font-stretch: normal;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.55;
     font-family: sans-serif;
 }
@@ -51,15 +51,19 @@ header:hover{
 }
 
 #one_nav{
-    display:inline-block;
-    text-align: center;
-    margin:0 auto;
+    
     float:right;
+    color: #F9F9F9;
+    width: calc(100%/6);
+    line-height: 30px;
+    display:inline;
+    margin: 0 auto;
+    background-color:#f42098;
 }
 
-one_li{
-    display:inline;
-    width: calc(100%/10);
+firstul{
+    display:inline-block;
+    width:0 auto;
     text-transform: uppercase;
     padding:3px;
     float:right;
