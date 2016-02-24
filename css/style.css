@@ -1,9 +1,9 @@
 html, body{
 
-margin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
+    font-size: 55.5%;
 }
 
 body{
@@ -18,12 +18,14 @@ body{
 }
 
 header{
+    display:inline;
     margin: 0 auto;
     padding-bottom: 10px;
     background-color: #fff;
     padding:25px 0 30px 0;
     width: 1200px;
     height: 200px;
+    
 }
 header:hover{
 /*
@@ -35,8 +37,8 @@ header:hover{
 }
 
 #header_left{
-    float: left;
     margin:0 auto;
+    float:left;
     
 }
 #header_left:hover{
@@ -44,6 +46,13 @@ header:hover{
     transition: background 2s;
     border-radius: 50px 50px 10px 10px;
 }
+
+nav{
+    display:block;
+    margin:0 auto;
+    float:right;
+}
+
 li{
     display: inline;
     width: calc(100%/6);
@@ -52,12 +61,13 @@ li{
     margin: 0 0 3px 0;
 }
 #one_nav{
-    float: left;
+    
     margin: 0 auto;
     text-align: right;
     margin: 9px 0 0 0 0;
     list-style: none;
     display:block;
+    background-color:aqua;
    
 }
 #one_nav:hover{
@@ -66,7 +76,7 @@ li{
 }
 
 .one_li{
-    display: inline-block;
+    display:block;
     padding: 1px 5px 1px 5px;
     margin: 0 0 3px 0;
     background-color: #6c5b79;
@@ -123,3 +133,5 @@ input{
     line-height: 35px;
     color: #fff;
 }
+
+
