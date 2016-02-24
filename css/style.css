@@ -4,30 +4,26 @@ margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    
 }
 
-
 body{
-    
     color: #818181;
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
     font-stretch: normal;
-    font-size: 11px;
-    line-height: 5em;
+    font-size: 12px;
+    line-height: 1.55;
     font-family: sans-serif;
 }
+
 header{
-    
     margin: 0 auto;
     padding-bottom: 10px;
     background-color: #fff;
     padding:25px 0 30px 0;
     width: 1200px;
     height: 200px;
-    
 }
 
 #header_left{
@@ -35,26 +31,24 @@ header{
     margin:0 auto;
     
 }
-
+#header_left:hover{
+    background-color:aqua:
+}
 li{
-    
     display: inline;
     width: calc(100%/6);
     text-transform: uppercase;
     padding: 1px 5px 1px 5px;
     margin: 0 0 3px 0;
-    
 }
-
 #one_nav{
-    
     float: right;
     margin: 0 auto;
     text-align: right;
     margin: 9px 0 0 0 0;
     list-style: none;
     display: block;
-    
+   
 }
 
 .one_li{
@@ -73,9 +67,7 @@ li{
     color: #fff;
     
 }
-
 .li_one{
-    
     display: inline-block;
     text-align: left;
     padding: 1px 5px 1px 5px;
@@ -85,16 +77,14 @@ li{
     font-size: 12px;
     width: calc(100%/3);
     font-weight: bold;
-    width: 160px;
+     width: 160px;
     text-align: center;
     height: 35px;
     line-height: 35px;
     color: #fff;
     
 }
-
 .two_li{
-    
     float: left;
     color: #F9F9F9;
     width: calc(100%/13);
@@ -106,9 +96,7 @@ a{
     text-decoration: none;
     color: white;
 }
-
 input{
-    
     background-color: #6c5b79;
     padding: 0;
     font-size: 12px;
