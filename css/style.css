@@ -61,17 +61,34 @@ header:hover{
     background-color:#f42098;
 }
 
-firstul{
+
+.firstul{
     display:inline-block;
     width:0 auto;
+    margin:0 auto;
     text-transform: uppercase;
     padding:3px;
     float:right;
+
+}
+.firstul > a{
+    
+    display:inline-block;
+    width:0 auto;
+    margin:0 auto;
+    text-transform: uppercase;
+    padding:3px;
+    float:right;
+    
+}
+    
+/*    padding:1px 55px 1px 5px*/
+
 /*
     padding: 1px 5px 1px 5px;
     margin: 0 0 3px 0;
 */
-}
+
 /*
 #one_nav{
     
@@ -130,9 +147,7 @@ firstul{
     margin: 0 auto;
     background-color:#f42098;
 }
-a{
-    text-decoration: none;
-    color: white;
+
 }
 input{
     background-color: #6c5b79;
@@ -152,6 +167,7 @@ input{
 <script src"http://html5shiv.googlecode.com/sun/trunk/html/5.js"></sript>
 
 
+/*
 @media only screen and (min-width:600px) and (max-width:920px){
     body{
         width:90%;
@@ -171,4 +187,24 @@ input{
         
         
     }
+}*/
+
+/*CUSTOM, iphone Retina*/
+@media only screen and (min-width:320px){
+    
 }
+
+Extra small devices, phones
+@media only screen and (min-width : 480px){
+    
+}
+    
+    @media only screen and (min-width : 768px){
+        
+}
+
+medium devices destops
+@media only screen and (min-width : 992px){
+    
+}
+
