@@ -37,22 +37,24 @@ header:hover{
 }
 
 #header_left{
+
     margin:0 auto;
+    padding:30px;
     float:left;
-    display:inherit;
+    
     
 }
 #header_left:hover{
-    background-color:aqua;
+    background-color:whitesmoke;
     transition: background 2s;
     border-radius: 50px 50px 10px 10px;
 }
 
-nav{
-    display:inline;
+#one_nav{
+    display:inline-block;
     text-align: center;
     margin:0 auto;
-    float:inherit;
+    float:right;
 }
 
 li{
