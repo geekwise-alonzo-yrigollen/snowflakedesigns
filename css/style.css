@@ -108,6 +108,8 @@ header:hover{
     line-height: 2;
     text-transform: uppercase;
     
+}
+    
 /*    padding:1px 55px 1px 5px*/
 
 /*
@@ -132,6 +134,8 @@ header:hover{
     transition: background 2s;
 }
 
+
+/*
 .one_li{
     display:block;
     padding: 1px 5px 1px 5px;
@@ -148,6 +152,7 @@ header:hover{
     color: #fff;
     
 }
+
 .li_one{
     display: inline-block;
     text-align: left;
@@ -165,6 +170,7 @@ header:hover{
     color: #fff;
     
 }
+*/
 .two_li{
     float: left;
     color: #F9F9F9;
