@@ -30,7 +30,10 @@ header{
 }
 
 #one_nav{
-    display:inline-block;
+    display:block;
+    float:right;
+    margin: 0 auto;
+    height: 180px;
 }
 
 
