@@ -57,10 +57,12 @@ header:hover{
     float:right;
 }
 
-li{
-    display:block;
-    width: calc(100%/6);
+one_li{
+    display:inline;
+    width: calc(100%/10);
     text-transform: uppercase;
+    padding:3px;
+    float:right;
 /*
     padding: 1px 5px 1px 5px;
     margin: 0 0 3px 0;
