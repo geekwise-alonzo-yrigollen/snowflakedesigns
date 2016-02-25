@@ -51,9 +51,14 @@ header{
     
     margin:0 auto;
     display:inline-block;
+    float:right;
+        
+}
+
+#one_nav > ul{
     
-    
-    
+    margin:0 auto;
+    text-align: center;
 }
 
 /*
