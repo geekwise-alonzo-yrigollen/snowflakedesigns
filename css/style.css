@@ -28,20 +28,22 @@ header{
     margin:0 auto;
     float:left;
     
+    
 }
 
 #one_nav{
-    display:block;
+        
     float:right;
     margin: 0 auto;
     height: 180px;
 }
 
-.firstful > li >a{
+#one_nav > ul > li > a{
     
     margin:0 auto;
     display:inline-block;
     background-color:aqua;
+    
 }
 
 /*
