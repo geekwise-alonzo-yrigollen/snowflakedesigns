@@ -41,8 +41,18 @@ header{
 #one_nav > ul > li > a{
     
     margin:0 auto;
-    display:inline-block;
+    display:block;
+    width:330px;
     background-color:aqua;
+    float:left;
+    
+}
+#one_nav > ul > li{
+    
+    margin:0 auto;
+    display:inline-block;
+    
+    
     
 }
 
